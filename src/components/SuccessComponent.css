@@ -1,0 +1,42 @@
+body {
+  background-image: url("../images/blue.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0; 
+  padding: 0;
+  margin-top: -50px;
+  margin-bottom: 80px;
+
+}
+
+
+/* components/SuccessComponent.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: green;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  

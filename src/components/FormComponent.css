@@ -1,0 +1,118 @@
+body {
+  background-image: url("../images/blue.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0; 
+  padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .header .text {
+    color: rgb(10, 88, 119);
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+  }
+  
+  .input label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+.input input,
+.input select {
+  height: 50px;
+  width: 100%;
+  background: lightblue; /* Set the default background color */
+  border: none;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 19px;
+  color: #433160;
+}
+.input input:-webkit-autofill,
+.input select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px lightblue  inset !important; /* Use the same color as valid inputs */
+}
+
+.input input:-webkit-autofill:focus,
+.input select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px lightblue inset !important; /* Use the same color as valid inputs */
+}
+
+
+  
+  .input input.invalid,
+  .input select.invalid {
+    background: #f7cac9; /* Pink color for errors */
+  }
+  
+  .input button {
+    margin-top: 5px;
+    align-self: flex-end;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.875em;
+    margin-top: 5px;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: white;
+    background: rgb(44, 186, 63);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .submit.gray {
+    background: #eaeaea;
+    color: #676767;
+  }
+ 
+  
