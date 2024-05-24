@@ -130,7 +130,7 @@ const FormComponent = ({ setFormData }) => {
                   }`}
                 />
                 {name === "password" && (
-                  <button type="button" onClick={togglePasswordVisibility}>
+                  <button type="button" onClick={togglePasswordVisibility} style={{"background-color":"lightblue","border-radius":"8px", "font-size":"15px", "font-weight":"bold", "cursor":"pointer"}}>
                     {showPassword ? "Hide" : "Show"}
                   </button>
                 )}

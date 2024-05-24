@@ -5,6 +5,7 @@ body {
   width: 100%;
   margin: 0; 
   padding: 0;
+  margin-bottom: 80px;
 }
 
 .container {
@@ -55,7 +56,7 @@ body {
 .input select {
   height: 50px;
   width: 100%;
-  background: lightblue; /* Set the default background color */
+  background: lightblue; 
   border: none;
   border-radius: 6px;
   padding: 0 10px;
@@ -83,6 +84,8 @@ body {
     margin-top: 5px;
     align-self: flex-end;
   }
+
+  
   
   .error {
     color: red;
